@@ -7,9 +7,6 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import re
 
-# https://youtu.be/Z3ZAJoi4x6Q
-
-# Initialize TTS using pyttsx3 (speaks directly without MP3 files)
 tts_engine = None
 try:
     import pyttsx3
